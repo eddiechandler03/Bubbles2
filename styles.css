@@ -69,18 +69,20 @@ nav li:first-child{
     display: none;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .sidebar li{
     width: 100%;
     text-align: center;
+    padding: 10px;
 }
 .sidebar a{
     width: 100%;
+    font-size: 50px;
+    padding: 10px;
     text-align: center;
 }
 .sidebar a:hover{
-    color: black;
     background-color:#0d42e14b;
     transition: .1s;
 }
@@ -369,7 +371,7 @@ nav li:first-child{
         align-items: center;
     }
     .sidebar{
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255, 0.75);
     }
 }
 @media (min-width:1050px) {
