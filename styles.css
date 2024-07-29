@@ -80,6 +80,7 @@ nav li:first-child{
     text-align: center;
 }
 .sidebar a:hover{
+    color: black;
     background-color:#0d42e14b;
     transition: .1s;
 }
@@ -366,6 +367,9 @@ nav li:first-child{
     .cont-right{
         justify-content: center;
         align-items: center;
+    }
+    .sidebar{
+        background-color: rgb(255, 255, 255);
     }
 }
 @media (min-width:1050px) {
